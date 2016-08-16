@@ -18,7 +18,7 @@ void setup()
  
 void loop()
 {
-    //get_instructions_from_serial_port();
+    get_instructions_from_serial_port();
     
     vw_send(message, 10);
     vw_wait_tx();
